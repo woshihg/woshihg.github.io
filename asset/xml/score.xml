@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="score.xsl"?>
+<student>
+    <basic_info>
+        <student_id>U202214990</student_id>
+        <name>黄宇涵</name>
+        <class>人工智能2202班</class>
+        <interests>
+            <hobby>音乐</hobby>
+            <hobby>读书</hobby>
+        </interests>
+        <photo>hg帅照2.png</photo>
+    </basic_info>
+    <course_grades>
+        <course>
+            <name>模拟电子技术</name>
+            <hours>35</hours>
+            <grade>98</grade>
+        </course>
+        <course>
+            <name>数据科学基础</name>
+            <hours>20</hours>
+            <grade>94</grade>
+        </course>
+        <course>
+            <name>面相对象的程序设计</name>
+            <hours>25</hours>
+            <grade>93</grade>
+        </course>
+        <course>
+            <name>文献检索与科技论文写作</name>
+            <hours>10</hours>
+            <grade>100</grade>
+        </course>
+        <course>
+            <name>C语言程序设</name>
+            <hours>35</hours>
+            <grade>89</grade>
+        </course>
+    </course_grades>
+</student>

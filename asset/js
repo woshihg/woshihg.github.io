@@ -1,0 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+  const table = document.querySelector("table");
+  const rows = table.querySelectorAll("tr");
+
+  let totalGrade = 0;
+  let totalHours = 0;
+
+  for (let i = 1; i < rows.length; i++) {
+      const cells = rows[i].querySelectorAll("td");
+      const hours = parseInt(cells[1].textContent);
+      const grade = parseInt(cells[2].textContent);
+
+      totalGrade += grade * hours;
+      totalHours += hours;
+  }
+
+  const average = totalGrade / totalHours;
+  document.getElementById("average").textContent = `课程加权平均分：${average.toFixed(2)}`;
+});

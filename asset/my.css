@@ -1,0 +1,49 @@
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    animation: titleAnimation 2s infinite;
+}
+
+@keyframes titleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #1a263a;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #d6d5f4;
+}
+
+.average {
+    text-align: right;
+    font-weight: bold;
+    padding: 8px;
+}
+
+input {
+    width: 50px;
+    background-color: rgb(61, 34, 68);
+}
