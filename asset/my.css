@@ -43,6 +43,11 @@ th {
     padding: 8px;
 }
 
+.updates {
+    max-height: 500px; /* 设置滚动窗口的最大高度 */
+    overflow-y: auto; /* 当内容超过窗口高度时显示滚动条 */
+}
+
 input {
     width: 50px;
     background-color: rgb(61, 34, 68);
