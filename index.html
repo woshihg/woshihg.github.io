@@ -163,26 +163,6 @@
 		<div class="average" id="average"></div>
 	</div>
 	<p class="copyright">© 2024 Woshihg. All rights reserved.</p>
-	<script>
-		// 计算课程加权平均分
-		function calculateAverage() {
-			const grades = Array.from(document.querySelectorAll('#gradesTable input')).map(input => Number(input.value));
-            const hours = [35, 20, 25, 10, 35];
-			const totalHours = hours.reduce((acc, val) => acc + val, 0);
-			const weightedGrades = grades.map((grade, index) => grade * hours[index]);
-			const averageGrade = weightedGrades.reduce((acc, val) => acc + val, 0) / totalHours;
-
-			document.getElementById('average').innerText = `加权平均分: ${averageGrade.toFixed(2)}`;
-		}
-
-		// 监听输入框变化
-		document.querySelectorAll('#gradesTable input').forEach(input => {
-			input.addEventListener('input', calculateAverage);
-		});
-
-		// 初始计算一次平均分
-		calculateAverage();
-	</script>
 
 	<script type="text/javascript">
 		var css2 = document.createElement('link');
