@@ -51,7 +51,7 @@ a:hover {
 .updates {
     overflow-x: hidden;
     overflow-y: auto;
-    max-height: 200px;
+    max-height: 600px;
 }
 .updates::-webkit-scrollbar {
     width: 10px;
